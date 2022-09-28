@@ -1,0 +1,44 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+input {
+  width: 50%;
+  height: 40px;
+}
+
+textarea {
+  width: 50%;
+  height: 100px;
+  margin-top: 10px
+}
+
+.subButton {
+  width: 50%;
+  justify-content: left;
+}
+
+button {
+  height: 40px;
+  width: auto;
+  background-color: rgb(76, 76, 216);
+  border-style: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: -4px;
+  color: #fff;
+}
+
+body {
+  background-color: rgb(210, 231, 249);
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 600;
+}
